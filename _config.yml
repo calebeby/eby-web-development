@@ -8,3 +8,4 @@ defaults:
       layout: "master"
 sass:
     sass_dir: _sass
+    style: compressed
