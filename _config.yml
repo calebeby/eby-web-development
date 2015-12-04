@@ -6,6 +6,7 @@ defaults:
       path: ""
     values:
       layout: "master"
+    date: :title/
 sass:
     sass_dir: _sass
     style: compressed
