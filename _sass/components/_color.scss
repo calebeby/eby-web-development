@@ -7,7 +7,7 @@
 // Google Color Palette defined: http://www.google.com/design/spec/style/color.html
 
 
-$materialize-red: (
+/* $materialize-red: (
   "lighten-5":  #fdeaeb,
   "lighten-4":  #f8c1c3,
   "lighten-3":  #f3989b,
@@ -155,7 +155,7 @@ $cyan: (
   "accent-3":    #00e5ff,
   "accent-4":    #00b8d4
 );
-
+ */
 $teal: (
   "lighten-5":  #e0f2f1,
   "lighten-4":  #b2dfdb,
@@ -172,7 +172,7 @@ $teal: (
   "accent-3":    #1de9b6,
   "accent-4":    #00bfa5
 );
-
+/* 
 $green: (
   "lighten-5":  #E8F5E9,
   "lighten-4":  #C8E6C9,
@@ -330,7 +330,7 @@ $grey: (
   "darken-3":   #424242,
   "darken-4":   #212121
 );
-
+ */
 $shades: (
   "black":        #000000,
   "white":        #FFFFFF,
@@ -338,7 +338,7 @@ $shades: (
 );
 
 $colors: (
-  "materialize-red": $materialize-red,
+  /* "materialize-red": $materialize-red,
   "red": $red,
   "pink": $pink,
   "purple": $purple,
@@ -346,9 +346,9 @@ $colors: (
   "indigo": $indigo,
   "blue": $blue,
   "light-blue": $light-blue,
-  "cyan": $cyan,
+  "cyan": $cyan, */
   "teal": $teal,
-  "green": $green,
+  /* "green": $green,
   "light-green": $light-green,
   "lime": $lime,
   "yellow": $yellow,
@@ -357,7 +357,7 @@ $colors: (
   "deep-orange": $deep-orange,
   "brown": $brown,
   "blue-grey": $blue-grey,
-  "grey": $grey,
+  "grey": $grey, */
   "shades": $shades
 );
 
