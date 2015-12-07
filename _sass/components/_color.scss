@@ -330,7 +330,7 @@ $grey: (
   "darken-3":   #424242,
   "darken-4":   #212121
 );
- */
+
 $shades: (
   "black":        #000000,
   "white":        #FFFFFF,
@@ -346,13 +346,9 @@ $colors: (
   "indigo": $indigo,
   "blue": $blue,
   "light-blue": $light-blue,
-  "cyan": $cyan, */
+  "cyan": $cyan,
   "teal": $teal,
-  The page build failed with the following error:
-
-The file `example.md` contains markdown errors.
-
-"green": $green,
+  "green": $green,
   "light-green": $light-green,
   "lime": $lime,
   "yellow": $yellow,
