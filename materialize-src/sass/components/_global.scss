@@ -1,5 +1,24 @@
 //Default styles
 
+svg {
+	width: 30%;
+	display: table;
+	margin: 0 auto;
+	display: table-cell;
+	vertical-align: middle
+}
+
+#logo {
+	min-width: 200px;
+}
+
+.flex {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+
 html {
  box-sizing: border-box;
 }
