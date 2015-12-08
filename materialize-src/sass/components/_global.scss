@@ -1,4 +1,7 @@
 //Default styles
+h2 {
+	text-align: center;
+}
 
 svg {
 	width: 30%;
@@ -12,12 +15,6 @@ svg {
 	min-width: 200px;
 }
 
-.flex {
-	display: -webkit-box;
-	display: -webkit-flex;
-	display: -ms-flexbox;
-	display: flex;
-}
 
 html {
  box-sizing: border-box;
