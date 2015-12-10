@@ -1,5 +1,7 @@
 ---
 layout: post
-title: How to write a blog
+title: How to write a blog that is very long
 ---
-hola
+hola. This is some really long text
+
+Here is some more.
