@@ -2,24 +2,18 @@
 title: blog
 ---
 hi this is blog
-<ul>
-  {% for post in site.posts %}
+
   <div class="row">
-      <div class="col s12 m6">
-        <div class="card waves-effect">
-          <div class="card-content white-text">
-            <span class="card-title">{{ post.title }}</span>
-            <p></p>
+    {% for post in site.posts %}
+      <div class="col s6 m4 l3">
+        <a href="{{ post.url }}">
+          <div class="card waves-effect">
+            <div class="card-content white-text">
+              <span class="card-title">{{ post.title }}</span>
+              {{ post.excerpt }}
+            </div>
           </div>
-          <div class="card-action">
-            <a href="#"><i class="material-icons">&#xE80D;</i></a>
-            <a href="#">This is a link</a>
-          </div>
-        </div>
+        </a>
       </div>
-    </div><li>
-      <a href="{{ post.url }}"></a>
-      {{ post.excerpt }}
-    </li>
-  {% endfor %}
-</ul>
+    {% endfor %}
+  </div>
