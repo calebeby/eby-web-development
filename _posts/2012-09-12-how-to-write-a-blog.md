@@ -5,4 +5,6 @@ title: How to write a blog that is very long
 
 here is some more text that is really *cool* and **colorful**
 
+![image](imagejpg)
+
 more text
